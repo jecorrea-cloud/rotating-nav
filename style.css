@@ -41,6 +41,11 @@ body {
   transition: transform 0.5s linear;
 }
 
+/*This is to see the x button when show-nav is active*/
+.container.show-nav .circle {
+  transform: rotate(-70deg);
+}
+
 .circle button {
   cursor: pointer;
   position: absolute;
